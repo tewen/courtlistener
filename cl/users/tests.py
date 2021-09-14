@@ -205,6 +205,9 @@ class ProfileTest(TestCase):
             reverse("delete_profile_done"),
         )
 
+    def test_generate_recap_email(self) -> None:
+        pass
+
 
 class DisposableEmailTest(TestCase):
     fixtures = ["authtest_data.json"]
